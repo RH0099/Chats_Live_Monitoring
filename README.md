@@ -1,4 +1,4 @@
-# Chats_Live_Monitoring
+# Chats_Live_Monitoring , Muslim Army Tools
 
 ### **চ্যাট মনিটর এবং মেসেজ এডিট টুলস**
 
@@ -15,17 +15,21 @@
 ```bash
 pkg update && pkg upgrade
 pkg install python -y
+pkg instoll python3 -y
 pkg install tcpdump -y
 pkg install tshark -y
 pkg install git -y
 ```
 
-### **স্ক্রিপ্ট রান করা:**
-এখন স্ক্রিপ্টটি রান করতে:
+### **লাইভ মনিটর টুলস রান করতে**
+##এখন স্ক্রিপ্টটি রান করতে##
 ```bash
-python chat_monitor.py
+python Live_monitoring1.py
 ```
-
+###**লাইভ মনিটর+এডিটিং টুলস রান করতে**
+```bash
+python3 Live_monitoring+edit2.py
+```
 ### **ফাংশনালিটি:**
 1. **ট্রাফিক মনিটর শুরু করা**: নির্দিষ্ট ইন্টারফেসের চ্যাট ট্রাফিক ক্যাপচার করবে।
 2. **ট্রাফিক বিশ্লেষণ করা**: ক্যাপচার করা ট্রাফিকের বিশ্লেষণ করবে।
