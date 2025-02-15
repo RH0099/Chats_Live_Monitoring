@@ -19,8 +19,13 @@ pkg instoll python3 -y
 pkg install tcpdump -y
 pkg install tshark -y
 pkg install git -y
+git clone https://github.com/RH0099/Chats_Live_Monitoring.git
 ```
+### **টুলস এর জায়গায় প্রবেশ করতে:**
+```bash
+cd Chats_Live_Monitoring
 
+```
 ### **লাইভ মনিটর টুলস রান করতে**
 ##এখন স্ক্রিপ্টটি রান করতে##
 ```bash
